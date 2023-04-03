@@ -20,12 +20,12 @@ public abstract class AbstractLaptop {
 
     public abstract void replaceBattery(int capacityInHours);
 
-//    @Override
-//    public String toString() {
-//        return "AbstractLaptop {" + "model = " + model + '\'' +
-//                ", screenSize = " + screenSize + ", ram = " + ram +
-//                ", storage = " + storage + ", batteryLife = " + batteryLife +
-//                ", batteryLevel = " + batteryLevel +'}';
-//    }
+    @Override
+    public String toString() {
+        return "AbstractLaptop {" + "model = " + model + '\'' +
+                ", screenSize = " + screenSize + ", ram = " + ram +
+                ", storage = " + storage + ", batteryLife = " + batteryLife +
+                ", batteryLevel = " + batteryLevel +'}';
+    }
 }
 
